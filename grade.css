@@ -30,6 +30,7 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    text-decoration: none;
 }
 
 .header-nav-links ul li {
@@ -72,7 +73,28 @@ margin: 1rem;
     width: 75%;
     padding: 20px;
     margin: 0 auto;
+    position: relative;
+    bottom: 40px;
+    background-color: white;
 }
 h2,h3,h4,h5,h6 {
     margin: 0;
+}
+main{
+    position: relative;
+}
+.gpa-container>div{
+    display: flex;
+    padding-top: 30px;
+    
+}
+
+.gpa-container>div>input{
+    justify-content: center;
+    font-size: 25px;
+}
+.gpa-container>div>select{
+    font-size: 25px ;
+    border-left: none;
+    border-right: none;
 }
